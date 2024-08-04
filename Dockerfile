@@ -14,7 +14,6 @@ RUN apt-get update \
     && apt-get clean
 
 RUN locale-gen en_US.UTF-8 \
-    && pip3 install --upgrade pip \
     && pip3 install ansible cryptography
 
 RUN mkdir -p /etc/ansible \
