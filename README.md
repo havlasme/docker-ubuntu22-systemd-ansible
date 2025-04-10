@@ -12,7 +12,7 @@ This image is built automatically on each commit to the `main` branch and publis
 How to Use
 ----------
 
-To use this image in Molecule scenario, update the `platforms` section in the `molecule.yml`.
+To use this image in a Molecule scenario, update the `platforms` section in the `molecule.yml`.
 
 ```yaml title="molecule.yml"
 platforms:
